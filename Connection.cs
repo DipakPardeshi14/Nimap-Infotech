@@ -12,7 +12,7 @@ namespace NimapInfotechMachineTest.SqlDbConnection
         SqlCommand _sqlCmd;
         SqlDataAdapter da;
         SqlConnection _sqlConn = null;
-        public static string connectionString = @"Data Source=DESKTOP-G6OLRHO; Initial Catalog=Db_nimap ; User Id=sa;Password=Game@123";
+        public static string connectionString = @"Data Source=DESKTOP-96VFSU5; Initial Catalog=NimapDb ; User Id=sa;Password=Game@123";
 
         public SqlConnection Connect()
         {
